@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="al&#305;&#351;t&#305;rma2"/>
+        <attribute name="authors" value="Rabi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-10 11:17:17 &#214;&#214;"/>
+        <attribute name="created" value="UmFiaTtSQUJJOzIwMjQtMTItMTA7MTE6MDc6NTUgw5bDljsyMjE0"/>
+        <attribute name="edited" value="UmFiaTtSQUJJOzIwMjQtMTItMTA7MTE6MTc6MTcgw5bDljsxOzIzMjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+            <declare name="sayi1" type="Integer" array="False" size=""/>
+            <input variable="sayi1"/>
+            <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+            <declare name="sayi2" type="Integer" array="False" size=""/>
+            <input variable="sayi2"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="sayi1" end="sayi2" direction="inc" step="2">
+                <if expression="i%2==1">
+                    <then>
+                        <output expression="i" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
